@@ -1,0 +1,320 @@
+/* CSS HEX 
+--raisin-black: #2A2328ff;
+--persian-orange: #CF915Eff;
+--sunset: #EFC692ff;
+--kobicha: #6B4D2Cff;
+--saffron: #F7C13Eff;
+--mustard: #FEE144ff;
+
+CSS HSL 
+--raisin-black: hsla(317, 9%, 15%, 1);
+--persian-orange: hsla(27, 54%, 59%, 1);
+--sunset: hsla(34, 74%, 75%, 1);
+--kobicha: hsla(31, 42%, 30%, 1);
+--saffron: hsla(42, 92%, 61%, 1);
+--mustard: hsla(51, 99%, 63%, 1);*/
+
+/* font-family: 'Cormorant Garamond', serif;
+
+    font-family: 'Edu NSW ACT Foundation', cursive;
+
+    font-family: 'Great Vibes', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Edu+NSW+ACT+Foundation&family=Great+Vibes&display=swap');
+
+body{
+    max-width: 2000px;
+    background-color: rgb(230, 196, 119);
+    margin: 0;
+}
+  header {
+    background-color: #cf915eff;
+    width: 100%;
+    margin:0;
+    min-height: 75px;
+  }
+  header img{
+    float:left;
+    padding-left: 15px;
+  }
+  header h1{
+    font-family: 'Great Vibes', cursive, sans-serif;
+    font-size: 60px;
+    margin:0;
+    padding-left: 3%;
+    float: left;
+  }
+  header p{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    padding-top:4%;
+    padding-left:3%;
+    margin:0;
+  }
+  nav{
+    clear:both;
+    height: 25px;
+    padding-left:8%;
+    margin-top: -1%;
+    width: 100%;
+    background-color: hsla(317, 9%, 15%, 1);
+  }
+  nav ul{
+    padding-left: 2%;
+    border-left: solid 2px hsla(42, 92%, 61%, 1);
+    border-right: solid 2px hsla(42, 92%, 61%, 1);
+  }
+  nav li{
+    list-style-type:none;
+    padding-left: 3%;
+    float:left;    
+  }
+  nav a:link{
+    text-decoration: none;
+    color: hsla(42, 92%, 61%, 1);
+  }
+  nav a:hover{
+    font-size: 120%;
+  }
+  nav a:visited{
+    text-decoration: line-through;
+    color: hsla(42, 92%, 61%, 1);
+  }
+  #wrapper{
+    width:81.25%;
+    margin:auto;
+    margin-top: 0%;
+    background-color:rgb(142, 142, 157) ;
+    min-height:500px;
+    font-family: 'Cormorant Garamond', serif, san-serif;
+    font-weight: 600;
+    padding:2%;
+  }
+  #wrapper main a{
+    color: rgb(95, 43, 43);
+  }
+  #wrapper h2 a:hover{
+    font-size: 120%;
+  }
+  #hero img{
+    width:100%;
+  }
+  aside{
+    position:fixed;
+    top:50%;
+    right: 0;
+    text-align: center;
+    width: 9.28%;
+    background-color: #00809c;
+    border:solid 2px black;
+    padding:0;
+}
+#disclaimer h2{
+  color: rgb(95, 43, 43);
+}
+aside li{
+    list-style-type: disc;
+    padding:1%;
+}
+aside ul{
+  list-style-image: url(images/painting.png);
+}
+aside a:link{
+    color:black;
+    text-decoration: none;
+}
+aside a:hover{
+    font-size: 120%;
+}
+aside a:visited{
+  color:black;
+}
+footer{
+  clear:both;
+  text-align: center;
+}
+footer a:link{
+  color: rgb(95, 43, 43);
+}
+footer a:hover{
+  font-size: 120%;
+}
+/* For about page only*/
+.illustrations #il1,#il2,#il3{
+  float: left;
+  width: 28%;
+  margin:2.4%;
+  text-align: center;
+}
+.illustrations img{
+  height:300px;
+  border-radius: 50%;
+  width:100%;
+}
+#about h2{
+  font-size: 120%;
+  text-align: center;
+  padding-top:5%;
+  margin-top: 0;
+}
+#about{
+  padding:2%
+}
+#portrait{
+  margin:auto;
+  text-align: center;
+}
+/*for Gallery*/
+
+.gallery h1{
+  text-align: center;
+  font-size: 250%;
+}
+#item1 img{
+  float:left;
+  border-radius:30%;
+  height: 200px;
+  margin-right:10px;
+}
+#item1 p{
+  height: 200px;
+  padding-top: 2%;
+  text-align: center;
+}
+#item3 img{
+  float:left;
+  border-radius:30%;
+  height: 200px;
+  margin-right: 10px;
+}
+#item3 p{
+  height: 200px;
+  padding-top: 5%;
+  padding-left: 10px;
+  text-align: center;
+}
+#item2 img{
+  float:right;
+  border-radius:30%;
+  height: 200px;
+}
+#item2 p{
+  float:left;
+  width:80%;
+  height: 200px;
+  padding-top: 2%;
+  text-align: center;
+}
+#item4 img{
+  float:right;
+  border-radius:30%;
+  height: 200px;
+}
+#item4 p{
+  width: 80%;
+  float: left;
+  padding-top: 2%;
+  text-align: center;
+}
+#item1,#item2,#item3,#item4{
+  clear:both;
+}
+.gallery #item1 a:hover img{
+  filter: hue-rotate(180deg);
+}
+.gallery #item2 a:hover img{
+  filter: hue-rotate(180deg);
+}
+.gallery #item3 a:hover img{
+  filter: hue-rotate(180deg);
+}
+.gallery #item4 a:hover img{
+  filter: hue-rotate(180deg);
+}
+/*for Rescources Page*/
+.rescources h1{
+  text-align: center; 
+  color:rgb(135, 71, 19);
+}
+.rescources ul{
+  list-style-image: url(images/paintbrush.png);
+  line-height: 30px;
+}
+
+@media only screen and (max-width:600px) {
+  #wrapper{
+    width:100%;
+  }
+  header img{
+  height:75px;
+  margin-right: 10px;
+  }
+  header h1{
+    float:none;
+    padding-left:10px;
+    font-size: 1.8em;
+  }
+  header p{
+    font-size: .9em;
+  }
+  aside{
+      position:relative;
+      width:auto;
+      margin:auto;
+  }
+  aside ul{text-align: left;
+  }
+  /*for About*/
+  .illustrations img{
+    height: 50%;
+  }
+  /*gallery
+  .gallery #item1, #item2, #item3, #item4{
+    margin:auto;
+  }
+  .gallery img{
+    margin:auto;
+  }*/
+  .gallery p{
+    padding:10px;
+    height:auto;
+  }
+
+  #item1 img{
+    display:block;
+    margin:auto;
+    float: none;
+  }
+  #item1 p{
+    height:fit-content;
+  }
+  #item2 img{
+    float: none;
+    display: block;
+    margin: auto;
+  } 
+  #item2 p{
+    height: fit-content;
+  }
+  #item2{display: flex;
+  flex-direction:column-reverse;}
+  
+  #item3 img{
+    float: none;
+    display: block;
+    margin: auto;
+  }
+  #item3 p{
+    height: fit-content;
+  }
+  #item4{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #item4 img{
+    float: none;
+    display:block;
+    margin: auto;
+  }
+  #item4 p{
+    height: fit-content;
+  }
+}
