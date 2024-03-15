@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(rgb(14, 67, 84), lightblue, skyblue);
+}
+#wrapper{
+    width:90%;
+    margin:auto;
+    max-width: 1200px;
+    background-color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+#content{
+    display: flex;
+    width:90%;
+    margin: auto;
+    
+}
+header img{
+    max-width: 100%;
+    height:auto;
+}
+#homework{
+    background-color: ivory;
+    flex:4;
+}
+#milestones{
+    background-color: ivory;
+    flex:3;
+}
+#terms{
+    background-color: ivory;
+    flex:3;
+}
+footer{
+    border-top: 4px groove;
+    display: flex;
+    justify-content: center;
+    max-width:100%;
+}
+#homework, #milestones, #terms{
+    box-shadow: 3px 3px 3px 3px darkblue;
+    margin:1em;
+    padding: 1em;
+    font-size: .85em;
+}
+#homework h1, #milestones h1, #terms h1{
+    text-align: center;
+}
+@media screen and (max-width:700px) {
+    #content{
+        display: flex;
+        flex-direction: column;
+    }    
+    #wrapper{
+        margin: 0;
+        width: 100%;
+    }
+    body{margin: 0;}
+}

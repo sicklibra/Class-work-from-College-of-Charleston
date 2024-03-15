@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(237, 146, 77, 0.997);
+    margin:0;
+}
+#toparea{
+    height: 75px;
+    width: 100%;
+    background-color: burlywood;
+    background-image: url(images/black-thread.png);
+    box-shadow: 5px 6px 3px brown;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+
+header{
+    width:950px; 
+    margin:auto;
+    height: 125px;
+}
+#logo {
+    Float:left;
+    width: 250px;
+   /* background-color: blueviolet;*/
+}
+nav{
+    float:right;
+    width: 600px;
+    background-color: rgb(10, 210, 37);
+    margin-top: 43px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    padding: 10px 0 6px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: smaller;
+}
+nav a{
+    color:navy;
+}
+nav a:hover{
+    color:white;
+}
+#wrapper{
+    background-color: rgb(207, 171, 126);
+    border-radius: 20px,5px,0px,0px;
+    width: 950px;
+    min-height:500px;
+    /*margin-top:225px; Margin lists start on top an move clockwise around the box as seen below */
+    margin: 125px auto auto auto;
+    padding-left: 0px;
+}
+#scared{
+    min-height: 350px;
+    /*border: 2px solid black;*/
+    border-radius: 20px 5px 20px 5px;
+    background-image: url(images/scared_tater.png);
+    margin-top: -15px;
+}
+figure{
+    margin:0;
+    padding:0;
+}
+#col1{
+    float: left;
+    width: 300px;
+    padding:0px 5px 0px 15px;
+}
+#col2{
+    float: left;
+    width: 300px;
+    padding:0px 5px 0px 5px;
+}
+#col3{
+    float: left;
+    width: 300px;
+    padding: 0px 10px 0px 5px;
+}
+footer{
+    clear:both;
+    text-align: center;
+}
+main h1,p{
+    padding-left: 15px;
+}
