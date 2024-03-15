@@ -1,0 +1,580 @@
+/*
+#DCE8F2 blue grey
+#8A8C3E brown olive
+#F0F2B6 beige yellow
+#F1F2D5 off white
+#8C8956 drab olive
+Font commands 
+font-family: 'Dancing Script', cursive;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Rubik Wet Paint', cursive;*/
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Exo+2&family=Rubik+Wet+Paint&display=swap');
+
+body{ 
+    background-image: url(images/backgroundpattern.png);
+    margin:0;
+}
+header{
+    background-image:linear-gradient(45deg,#dce8f2 ,rgb(124, 212, 124)) ;
+    /* background-repeat: no-repeat; */
+    border-bottom: double 5px black;
+    width: 100%;
+    padding: 15px;
+    height: 80px;
+    font-family: 'Dancing Script', cursive, arial, sans-serif;
+}
+header img{
+    float:left;
+    margin-bottom: 10px;
+    margin-right: 2em;
+}
+header h1{
+    /* height: 20px; */
+    padding-top: 0px;
+    margin-top: 0;
+    margin-left: 15px;
+    width: 80%;
+}
+nav{
+    float:left;
+    height: 1.3em;
+    margin-top: -40px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin-left: 7em;
+    margin-bottom:0;
+}
+nav ul{
+    list-style-type: none;
+    position: relative;
+    font-size: 1.2em;
+}
+nav ul a:link{
+    text-decoration: none;
+    color: rgb(55, 9, 55);
+}
+nav ul li{
+   float:left;
+   margin: 0 1em 0 0;
+   background-color: #8c8596;
+   border: 2px groove;
+   box-shadow: 3px 3px 2px #4e4f23;
+   width: 9.2%;
+   text-align: center;
+   height: 1.3em;
+}
+nav ul ul{
+    list-style-type: none;
+    display: none;
+    position:absolute;
+    top: 100%;
+    width: 100%;
+}
+nav ul ul li{
+    float: none;
+    width: 7em;
+    border: 2px groove;
+}
+nav ul li a:hover{
+    color: rgb(99, 34, 160);
+}
+nav ul li:hover>ul{
+    display:block;
+}
+nav ul a:visited{
+    color:rgb(55, 9, 55);
+}
+nav ul ul li a:hover{
+    color: rgb(99, 34, 160);
+}
+nav> ul::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+#wrapper{
+    Width:90%;
+    padding: 2%;
+    margin:auto;
+    background-image: radial-gradient(#dfe35e, white);
+    min-height: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+    clear: both;
+    text-align: center;
+}
+/* home page */
+.home h2{
+    text-align: center;
+}
+#hero img{
+    max-width: 100%;
+    display: block;
+    margin:auto;
+}
+
+/* About Page */
+
+#abouthero img{
+    display: block;
+    max-width: 80%;
+    margin: auto;
+}
+.about #wrapper h1{
+    text-align: center;
+}
+.about #bio {
+    display: flex;
+    padding: 1em;
+}
+#origins{
+    clear:both;
+    padding: 0 1em;
+    flex:2.8;
+}
+#mil{
+    padding:0 1em;
+    flex:3.6;
+}
+#adjust{
+    padding:0 1em;
+    flex:3.6;
+}
+#aboutnow h2{
+    text-align: center;
+}
+#nowbody{
+    display: flex;
+}
+#nowbody img{
+
+    max-width: 20%;
+    margin-right: .5em;
+}
+#nowbody p{
+    width: 56%;
+    margin: 1em;
+}
+/* Garden Page */
+#gardenhero img{
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 0;
+}
+.garden ul li{
+    font-weight: normal;
+    font-size: 100%;
+}
+#water{
+    display: flex;
+}
+#watertxt{
+    display: block;
+}
+#water li{
+    font-weight: bold;
+    font-size: 1.6em;
+}
+#goodbad{
+    display:flex;
+    margin: auto;
+    width: 70%;
+}
+#dhbody img{
+    max-width: 90%;
+    margin-left: 1em;
+    /* margin-bottom:-6em; */
+}
+#dhbody{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+}
+#dhtext{
+    padding-top: 3em;
+}
+#shroomcult{
+    margin-bottom: 2em;
+    display: flex;
+}
+#Shroomcultimg{
+    max-width: 100%;
+    margin-right: 1em;
+}
+#shroomculttxt{
+    margin-left: 1em;
+    padding-top: 3em;
+}
+#gardenshroom{
+    margin-top: 2em;
+    display: flex;
+}
+#gardenshroomimg{
+    width: 100%;
+    margin-left: 1em;
+}
+#gardenshroomtxt{
+    padding-top: 7em;
+}
+.garden footer{
+    margin-top: 2em;
+}
+/* Livestock */
+#anmlhero img{
+    max-width: 100%;   
+}
+#raisin img{
+    max-width: 26%;
+    margin: 0 1em;
+    flex:3;
+}
+#riasinimgs{
+    display: flex;
+    margin: auto;
+}
+#raisinimgs a:hover{
+    filter: contrast(40%);
+
+}
+#chickpro{
+    clear: both;
+}
+#chickpro ul li{
+    list-style: url(images/orpington_chicken.png);
+}
+#chickcon img{
+    width: 100%;
+}
+#chickcon{
+    display: flex;
+}
+#chickcon a:hover{
+    filter: contrast(50%);
+}
+#chickcon ul li{
+    list-style: url(images/orpington_chicken.png);
+    margin-left: 1em;
+}
+aside{
+    width: 90%;
+    height: 100px;
+    position: fixed;
+    bottom:0;
+    background-color: black;
+    color: red;
+    border: double yellow;
+    text-align: center;
+}
+#warning{
+    display: flex;
+    width: 20%;
+    margin: auto;
+    height: 50px;
+}
+#warning img{
+    margin-top: 1.4em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+aside p{ 
+    margin-top: 0;
+    padding-top: .5em;
+}
+#goat{
+    margin-bottom: 110px;
+}
+.livestock footer{
+    margin-bottom: 110px;
+}
+/* pest */
+#pestintro{
+    display: flex;
+}
+#pestintro img{
+    max-width:40%;
+    height:200px
+}
+#squirrel h3{
+    text-align: center;
+    color: darkred;
+    font-size: 250%;
+    font-family: 'Rubik Wet Paint', cursive, Arial, sans-serif;
+    text-shadow: 0 2px 3px;
+}
+#squirrel img{
+    width: 45%;
+    display: block;
+    margin:auto;
+}
+
+/* chemical only */
+
+#vinegar img{
+    max-width: 30%;
+    margin-top: -4em;
+    /* margin-right: 15em; */
+    float: right;
+}
+/* .chem nav{
+    width: 80%;
+    margin-left: -50px;
+} */
+.chem header{
+    height:90px;
+}
+.chemhead{
+    background-image: none;
+    background-color: rgb(124, 212, 124);
+    animation-name: chemhead;
+    animation-duration: 6s;
+    animation-iteration-count: 3;
+}
+.chemhead h1{
+    display: flex;
+    font-family: 'Exo 2', arial, helvetica sans-serif;
+    /* width: 85%; */
+}
+.chemhead h1 img{
+    margin-left: .5em;
+    margin-right: .5em;
+    padding:0;
+}
+#headimg a img{
+    max-height:80px;
+}
+#chemcomp ul li{
+    height: 3.4em;
+}
+#chemcomplist{
+    display: flex;
+}
+
+#chemical ul li{
+    list-style: url(images/poison_ico.png);
+}
+
+#alternative ul li{
+    list-style: url(images/favicon-32x32.png);
+}
+.chem #wrapper{
+    background-image: linear-gradient(rgb(206, 113, 206), rgb(0,277,0), rgb(124,212,124));
+    font-family: 'Exo 2', arial, helvetica sans-serif;
+}
+#chemcomp h2{
+    text-align: center;
+}
+@keyframes chemhead {
+    0% {background-color:rgb(124, 212, 124);}
+    33% {background-color: rgb(103, 13, 103);}
+    66% {background-color: rgb(0, 227, 0);}
+    100% {background-color: rgb(124, 212, 124);}
+}
+
+@media only screen and (max-width:600px) {
+    
+    nav{
+        clear: both;
+        float:none;
+        height: 1.3em;
+        margin-top: 0;
+        padding-bottom:0;
+        width: 100%;
+        margin-left: -52px;
+        margin-bottom:0;
+    }
+    nav ul{
+        clear: both;
+        list-style-type: none;
+        position: static;
+        display: flex;
+        margin: 0;
+        width: 100%;
+}
+nav ul a:link{
+    text-decoration: none;
+    color: rgb(55, 9, 55);
+}
+nav ul li{
+   all:unset;
+   margin: 0 .1em 0 0;
+   border: 2px solid;
+   background-color: #8c8596;
+}
+nav ul ul{
+    list-style-type: none;
+    display: none;
+    position:static;
+    top: 100%;
+    width: 100%;
+}
+nav ul li a:hover{
+    color: rgb(99, 34, 160);
+}
+nav ul li:hover>ul{
+     display:none;
+}
+nav ul a:visited{
+    color:rgb(55, 9, 55);
+}
+nav ul ul li a:hover{
+    color: rgb(99, 34, 160);
+}
+nav> ul::after{
+    all: unset;
+    /* content:""; */
+    /* display: block; */
+    /* clear: both; */
+} 
+    
+    body{
+        background-image: none;
+        margin:0;
+    }
+    header{
+        width: 91%;
+        margin: 0;
+    }
+    header img{
+        margin-bottom: .5em;
+        max-width: 30%;
+    }
+    header h1{
+        max-width: 350px;
+    }
+    #wapper{
+        width:100%;
+        margin:0;
+        /* padding-top: px; */
+    }
+    /* Home Page */
+    #hero img{
+        padding-top: 30px;
+    }
+    /* about */
+    .about h2{
+        text-align: center;
+    }
+    .about #bio{
+        display:inline;
+    }
+    #nowbody{
+        display: inline;
+    }
+    #nowbody p{
+        all:unset
+    }
+    #nowbody img{
+        max-width: 50%;
+        display: block;
+        margin:auto;
+    }
+    /* Garden */
+    #gardenhero img{
+        margin-top:30px;
+        max-width:100%;
+    }
+    #start{
+        text-align: center;
+    }
+    #planning{
+        text-align: center;
+    }
+    .garden #lihead, li{
+        font-size: 100%;
+    }
+    #water li{
+        font-size: 100%;
+    }
+    #water{
+        display: inline;
+    }
+    #shroomcult {
+        display: inline;
+    }
+    #gardenshroom{
+        display: inline;
+    }
+    #gardenshroomtxt{
+        padding-top: 1em;
+    }
+    #gardenshroom img{
+        display: block;
+        margin: auto;
+    }
+    #dhbody{
+        display: inline;
+        margin-top: auto;
+    }
+    #dhtxt{
+        padding-top: 1em;
+    }
+    #goodbad{
+        width: 100%;
+        padding-left: 4px;
+    }
+    /* Livestock */
+    #anmlhero{
+        padding-top: 30px;
+    }
+    #raisinimgs img{
+        width: 30%;
+        margin:.6em;
+    }
+    #chickcon {
+        display: inline;
+    }
+    /* Pests */
+    .pest nav{
+        height: 1.3em;
+    }
+    #pestintro{
+        flex-direction: column-reverse;
+    }
+    #pestintro h2{
+        text-align: center;
+    }
+    #pestintro img{
+        max-width: 60%;
+        display: block;
+        margin: auto;
+        padding-top: 30px;
+    }
+    #squirrel img{
+        width: 80%;
+    }
+/* chemicals */
+.chem header img{
+    margin-right: auto;
+    padding:0%;
+}
+.chem header h1{
+    width: 40%;
+    font-size: 160%;
+    margin-left: 0;
+}
+.chem #wrapper{
+    padding-top: 2em;
+    width: 96%;
+}
+#chemcomp ul li{
+    height: 6em;
+}
+/* .chem header{
+    width: 95%;
+} */
+#vinegar{
+    all:unset;
+}
+#vinegar h2{
+    text-align: center;
+}
+#vinegar img{
+    all:unset;
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+}
