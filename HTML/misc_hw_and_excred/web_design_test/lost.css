@@ -1,0 +1,81 @@
+/*#660000 Maroon
+ed2939 light maroon*/
+
+body{
+    margin:0;
+}
+header{
+    height: 130px;
+    background-color: #660000;
+    margin: 0;
+}
+header img{
+    padding-left: 20px;
+    padding-top:5px;
+}
+nav{
+    background-color: #710000;
+    margin:0;
+    min-height:30px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+nav a{
+    color:white;
+}
+
+#wrapper{
+    min-height: 500px;
+    background-image: url(images/cougar_angry.jpg);
+    background-size:auto 500px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 10px;
+    margin:auto;
+    width: 860px;
+}
+
+main{
+    margin: auto;
+    float:left;
+    width:300px;
+    padding-left: 100px;
+    font-size: 175%;
+    font-weight: bold;
+}
+#pnf{ 
+    padding-top:0;
+    margin-top: 20px;
+}
+h1{
+    margin-top: 100px;
+    font-size:600%; 
+    margin-bottom:75px; 
+}
+aside{
+    Float:right;
+    width:275px;
+    font-size:150%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding-right: 75px;
+    margin-top:75px;
+    text-align: center;
+}
+aside a{
+    font-size: 200%;
+    color: rgb(254, 165, 0);
+}
+footer{
+    margin-top: -30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+footer a:link{
+    color: black;
+}
+footer a:hover{
+    color:blue;
+}

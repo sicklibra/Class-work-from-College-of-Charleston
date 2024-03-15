@@ -1,0 +1,86 @@
+/*#660000 Maroon
+ed2939 light maroon
+#4c3327 brownish*/
+body{
+    background-image: url(images/background-gbda91dfef_1920.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+header{
+    height: 130px;
+    width: 100%;
+    background-color: #660000; 
+}
+header img{
+    padding-left: 20px;
+    padding-top:5px;
+}
+nav{
+    background-color: #710000;
+    margin:0;
+    min-height:30px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+nav a{
+    color:white;
+}
+
+
+#wrapper{
+    background-image: url(images/skull_invite.png);
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    width:1000px;
+    margin:auto;
+    margin-top:11px;
+}
+#what{
+    float:left;
+    width: 600px;
+    margin-top:475px;
+    text-align:center;
+    color: white;
+    font-size: 30px;
+}
+#enter a:hover{
+    color:fuchsia;
+}
+aside{
+    color: rgb(175, 175, 175);
+    min-height: 600px;
+    background-color: #4c3327;
+    float:right;
+    width: 380px;
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+aside h2{
+    margin-bottom: 100px;
+}
+aside ol{
+    font-size:16;
+}
+aside a:link{
+    color:aqua;
+}
+aside a:visited{
+    color:black;
+}
+aside a:hover{
+    color:#660000;
+}
+
+footer{
+    text-align: center;
+    margin-left: 50px;
+}
+footer a:link{
+    color: blue;
+}
+footer a:hover{
+    color:fuchsia;
+}
